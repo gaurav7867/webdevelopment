@@ -1,0 +1,64 @@
+
+body{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box
+}
+.container{
+    border-top: 1px solid #000;
+    background-color: black;
+    box-shadow:2px 2px 2px 2px yellowgreen;
+    height: 650px;
+    width: 50%;
+    text-align: center;
+    margin-left: 30%;
+    margin-top: 8%;
+    margin-bottom:8%;
+}
+.square{
+    height: 100px;
+    width: 150px;
+    background-color:#d1bb03;
+    margin-left:40%
+}
+.roundedsquare{
+    height: 100px;
+    width: 150px;
+    background-color:green;
+    border-radius: 25px;
+    margin-left:40%;
+    
+}
+.oval{
+    height: 100px;
+    width: 150px;
+    background-color:lightcoral;
+    border-radius: 50px;
+    margin-left:40%;
+   
+}
+.triangle{
+    height: 0;
+    width:0;
+    border: 50px solid transparent;
+    border-bottom: 100px solid #252aff;
+    margin-left: 42%;
+}
+
+.hemisphere{
+    height: 90px;
+    width:170px;
+    background-color:#cdef00;
+    border-radius: 80px /100% 100% 0 0;
+    margin-left: 38%;
+    
+}
+.boxname{
+    padding-top:20%;
+    font-size:20px;
+}
+#boxno4{
+    font-size:15px;
+    padding-top:40px;
+    margin-left: -25px;
+}
