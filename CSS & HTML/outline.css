@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ouline{
+    border: 2px solid black;
+    margin:20px 20px;
+    background-color:lightgreen
+}
+h2{
+    text-align:center;
+    padding:10px;
+    color: rgb(111, 0, 255);
+    font-size:30px;
+}
+
+.list > li{
+    font-size:20px;
+    font-weight:bold;
+    color: rgb(153, 45, 13);
+    text-decoration: none;
+    display: inline;   
+}
+p{
+    margin-top:2%;
+    font-size:20px;
+    font-weight:bold;
+}
+.dotted{
+    outline: 5px dotted red;
+}
+.dashed{
+    outline: 5px dashed blue;
+}
+.solid{
+    outline: 5px solid green;
+}
+.double{
+    outline: 5px double  yellow;
+}
+.groove{
+    outline: 5px groove orange;
+}
+.ridge{
+    outline: 5px ridge
+}
+.inset{
+    outline: 5px inset yellowgreen;
+}
+
+.outset{
+    outline: 5px outset skyblue;
+}
+
+.none{
+    outline: 5px none rgb(7, 71, 92);
+}
+.hidden{
+    outline: 5px hidden red;
+}
+.outline_border{
+    width: 80%;
+    margin-left:10%
+}
