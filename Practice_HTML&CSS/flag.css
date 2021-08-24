@@ -1,0 +1,86 @@
+#flag{
+    width: 600px;
+    height:400px;
+    border: 1px solid #ccc;
+}
+body{
+    margin: 8rem;
+}
+
+.stripe{
+    height:134px;
+    width: 100%;
+    position: relative;
+}
+#saffron {background: #FF9933;}
+#green{background: #138808;}
+#white{background: #FFF;}
+
+#outer-blue-ring{
+    width: 0px;
+    height:0px;
+    border: 54px solid #008;
+    border-radius:54px;
+    position:absolute;
+    top: 13px;
+    left: 246px;
+}
+#spoke_set{
+    border:37px solid #fff;
+    border-radius:47px;
+    position:absolute;
+    top: 20px;
+    left: 253px;
+    width: 20px;
+    height: 20px;
+    background:#008;
+}
+
+.sc{
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right: 15px solid #000;
+    border-left: 15px solid #008;
+    width:8px;
+    height:0px;
+    position: absolute;
+    top: 47px;
+    left: 28px;
+    top: 9px;
+    left: 9px;
+}
+
+.sc:after{
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-right: 0px;
+    border-left: 27px solid #008;
+    display:block;
+    width:0px;
+    height: 0px;
+    content:"";
+    margin: -4px 0px 0px -47px;
+}
+
+#ss1:before{
+    border-right: 32px solid #008;
+    margin: -2px 0px 0px -47px;
+}
+#ss1:after{
+    border-left: 32px solid #008;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
