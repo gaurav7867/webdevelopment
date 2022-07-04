@@ -1,0 +1,35 @@
+body{
+    background: #000;
+}
+
+#coolText{
+    text-align:center;
+    display:flex;
+    align-items:center;
+    justify-content:center; 
+    margin-top:200px;
+}
+
+h1{
+    font-size:3rem;
+    letter-spacing:1px;
+    font-weight: bold;
+    font-family:"Montserrat" sans-serif;
+    background:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMArkDtDBsV7chcoxZTsDBr9xUkWH4hd7wpg&usqp=CAU");
+    background-clip: text;
+    animation:text 7.5s linear infinite;
+    color:white;
+    padding: 20px 50px;
+    border:1px solid rgb(0, 255, 0);
+
+}
+
+@keyframes text {
+    from {
+        background-position: 0% 50%;
+    }
+    to{
+        background-position:100% 100%
+    }
+}
+
