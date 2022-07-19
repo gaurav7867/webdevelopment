@@ -2,8 +2,7 @@ const currentTime = document.querySelector("h1"),
 content = document.querySelector(".content"),
 selectMenu = document.querySelectorAll("select"),
 setAlarmBtn = document.querySelector("button");
-
-
+console.log("SelectMenu", selectMenu);
 let alarmTime, isAlarmSet, ringtone = new Audio('audio path');
 
 for (let i = 12; i > 0 ; i-- ){
