@@ -1,0 +1,127 @@
+.footer{
+    padding: 70px 0 0;
+    background-color: rgb(30, 30, 30);
+    box-sizing: border-box;
+    width: 100%;
+    font-size:1em;
+}
+
+.container {
+    max-width:1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap:wrap;
+    width: 100%;
+    color:rgb(255,255,255,1);
+}
+.row > div:nth-child(1){
+    width: 35%;
+}
+
+.row >div {
+    width: 20%;
+    padding: 0 25px;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    flex-grow: 1;
+}
+
+.row p {
+    margin: 20px 0;
+    color:rgb(255,255,255,0.8);
+    font-size:0.9em;
+    line-height: 1.8em;
+    font-size:20px;
+}
+
+.row h4{
+    background-color: rgb(118,109,244,0.2);
+    color:rgba(255, 255, 255, 0.829);
+    width: fit-content;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+.row ul, li{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 15px 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.row li {
+    transform:translateX(-15px);
+}
+.row li::before{
+    content:"";
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width: 0;
+    height: 0;
+    border-top:5px solid transparent;
+    border-left:8px solid rgb(118,109,244);
+    border-bottom:5px solid transparent;
+}
+
+.row li:hover{
+    transform:translateX(0);
+}
+.row ul a{
+    text-decoration:none;
+    margin-left: 15px;
+    color:rgb(255,255,255,0.8);
+    font-size: 22px;
+}
+.footer .row .socialButtons{
+    display: flex;
+    align-items: center;
+    gap:25px;
+    margin-top: 30px;
+    width: fit-content;
+    cursor: pointer;
+}
+
+.footer .row .socialButtons {
+    font-size:28px;
+    text-decoration: none;
+    color:rgb(255,255,255);
+    opacity:0.6;
+    transform:translateY(0);
+    transition: all 0.3s ease;
+}
+
+.footer .row .socialButtons i:hover {
+    opacity:1;
+    transform:translateY(-40%);
+}
+
+.footer .copyright {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    margin-top: 40px;
+    height: 80px;
+    background-color: rgb(10,10,10);
+    color:rgb(255,255,255,0.7);
+    font-size:1.1em;
+}
+
+/* Responsive */
+@media only screen and (max-width:1170px){
+    .footer .row >div{
+        width: 50% !important;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:574px){
+    .footer .row >div{
+        width: 100% !important;
+    }
+}
